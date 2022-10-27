@@ -23,8 +23,7 @@ console.log('Las pizzas que valen menos de $600 son:', menorA600)
 //Punto C
 
 pizzas.forEach(({nombre, precio}) => {    
-    console.log('Pizza:',nombre)
-    console.log('Tiene un costo de:', precio)
+    console.log('Pizza:',nombre,'. Tiene un costo de:', precio)
 })
 
 //Punto D
